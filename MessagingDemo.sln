@@ -1,8 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayProducer", "OneWayProducer\OneWayProducer.csproj", "{D23E8B9E-8715-4E5C-8AAA-8827BFFAD5F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayConsumer", "OneWayConsumer\OneWayConsumer.csproj", "{2F7625D3-C14D-4A6B-A51D-72B9AC0A2DAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneWay", "OneWay", "{4725C755-D572-47A3-AA6D-07D5E2FD2023}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D23E8B9E-8715-4E5C-8AAA-8827BFFAD5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23E8B9E-8715-4E5C-8AAA-8827BFFAD5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23E8B9E-8715-4E5C-8AAA-8827BFFAD5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23E8B9E-8715-4E5C-8AAA-8827BFFAD5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7625D3-C14D-4A6B-A51D-72B9AC0A2DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7625D3-C14D-4A6B-A51D-72B9AC0A2DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7625D3-C14D-4A6B-A51D-72B9AC0A2DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7625D3-C14D-4A6B-A51D-72B9AC0A2DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F7625D3-C14D-4A6B-A51D-72B9AC0A2DAF} = {4725C755-D572-47A3-AA6D-07D5E2FD2023}
+		{D23E8B9E-8715-4E5C-8AAA-8827BFFAD5F0} = {4725C755-D572-47A3-AA6D-07D5E2FD2023}
 	EndGlobalSection
 EndGlobal
